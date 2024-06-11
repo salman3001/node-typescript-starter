@@ -1,0 +1,10 @@
+{
+  "extends": "@adonisjs/tsconfig/tsconfig.app.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./build",
+    "allowJs": true
+  },
+  "include": ["./**/*.ts", ".**/*.js", "../vitest.config.ts"],
+  "exclude": ["node_modules", "dist", "./src/**/__tests__", "tests"]
+}
